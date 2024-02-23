@@ -1,9 +1,9 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || '𝐃𝐑𝐄𝐗_𝐀𝐈';
+let botname = process.env.BOTNAME || '𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀-𝐀𝐈';
 
-const owner = process.env.DEV || '254102074064'; // This will send a notification once the bot reconnects
+const owner = process.env.DEV || '263785189764'; // This will send a notification once the bot reconnects
 const {
   default: dreadedConnect,
   useMultiFileAuthState,
@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `Hail to ${botname}\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         `𝐈 𝐀𝐌 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐓𝐎 ${botname}\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
 
                                  ) 
 
@@ -232,7 +232,7 @@ dreaded(client, m, chatUpdate, store);
   };
 
 
-function _0x29cf(){const _0x2f6ca3=['group-participants.update','remove','254','910863dDSaFb','146487zDznIw','groupParticipantsUpdate','sendMessage','200259gYsLZh','startsWith','40bMoLNF','13151ZUchWx','82691ApiyjL','4LeNAvk','add','\x20has\x20been\x20removed\x20by\x20𝐃𝐑𝐄𝐗 𝐁𝐎𝐓!\x20Only\x20Kenyan\x20numbers\x20are\x20allowed\x20to\x20join!','1055145aElrbj','participants','1500600oPVfCJ','20HUXDAq','48IAhWXe'];_0x29cf=function(){return _0x2f6ca3;};return _0x29cf();}const _0xe11567=_0x1275;function _0x1275(_0x28b765,_0x13dc1a){const _0x29cfbd=_0x29cf();return _0x1275=function(_0x12753e,_0x2117f6){_0x12753e=_0x12753e-0x145;let _0x51fa9b=_0x29cfbd[_0x12753e];return _0x51fa9b;},_0x1275(_0x28b765,_0x13dc1a);}(function(_0x7a02ed,_0xedb092){const _0x40a74e=_0x1275,_0x2c7c97=_0x7a02ed();while(!![]){try{const _0x2784d5=parseInt(_0x40a74e(0x147))/0x1*(-parseInt(_0x40a74e(0x14f))/0x2)+-parseInt(_0x40a74e(0x154))/0x3*(parseInt(_0x40a74e(0x149))/0x4)+parseInt(_0x40a74e(0x14c))/0x5+parseInt(_0x40a74e(0x14e))/0x6+parseInt(_0x40a74e(0x148))/0x7*(parseInt(_0x40a74e(0x150))/0x8)+-parseInt(_0x40a74e(0x158))/0x9*(-parseInt(_0x40a74e(0x146))/0xa)+-parseInt(_0x40a74e(0x155))/0xb;if(_0x2784d5===_0xedb092)break;else _0x2c7c97['push'](_0x2c7c97['shift']());}catch(_0x210b13){_0x2c7c97['push'](_0x2c7c97['shift']());}}}(_0x29cf,0x2a213),client['ev']['on'](_0xe11567(0x151),async _0x2b1bff=>{const _0x555408=_0xe11567;let _0x53289d=await await client['groupMetadata'](_0x2b1bff['id']),_0x3279a2=_0x2b1bff[_0x555408(0x14d)][0x0];_0x2b1bff['action']==_0x555408(0x14a)&&(!member[_0x555408(0x145)](_0x555408(0x153))&&(await client[_0x555408(0x156)](_0x2b1bff['id'],[_0x3279a2],_0x555408(0x152)),client[_0x555408(0x157)](_0x2b1bff['id'],{'text':'@'+_0x3279a2['split']`@`[0x0]+_0x555408(0x14b)})));}));
+function _0x29cf(){const _0x2f6ca3=['group-participants.update','remove','254','910863dDSaFb','146487zDznIw','groupParticipantsUpdate','sendMessage','200259gYsLZh','startsWith','40bMoLNF','13151ZUchWx','82691ApiyjL','4LeNAvk','add','\x20has\x20been\x20removed\x20by\x20𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀𝐁𝐎𝐓!\x20Only\x20Kenyan\x20numbers\x20are\x20allowed\x20to\x20join!','1055145aElrbj','participants','1500600oPVfCJ','20HUXDAq','48IAhWXe'];_0x29cf=function(){return _0x2f6ca3;};return _0x29cf();}const _0xe11567=_0x1275;function _0x1275(_0x28b765,_0x13dc1a){const _0x29cfbd=_0x29cf();return _0x1275=function(_0x12753e,_0x2117f6){_0x12753e=_0x12753e-0x145;let _0x51fa9b=_0x29cfbd[_0x12753e];return _0x51fa9b;},_0x1275(_0x28b765,_0x13dc1a);}(function(_0x7a02ed,_0xedb092){const _0x40a74e=_0x1275,_0x2c7c97=_0x7a02ed();while(!![]){try{const _0x2784d5=parseInt(_0x40a74e(0x147))/0x1*(-parseInt(_0x40a74e(0x14f))/0x2)+-parseInt(_0x40a74e(0x154))/0x3*(parseInt(_0x40a74e(0x149))/0x4)+parseInt(_0x40a74e(0x14c))/0x5+parseInt(_0x40a74e(0x14e))/0x6+parseInt(_0x40a74e(0x148))/0x7*(parseInt(_0x40a74e(0x150))/0x8)+-parseInt(_0x40a74e(0x158))/0x9*(-parseInt(_0x40a74e(0x146))/0xa)+-parseInt(_0x40a74e(0x155))/0xb;if(_0x2784d5===_0xedb092)break;else _0x2c7c97['push'](_0x2c7c97['shift']());}catch(_0x210b13){_0x2c7c97['push'](_0x2c7c97['shift']());}}}(_0x29cf,0x2a213),client['ev']['on'](_0xe11567(0x151),async _0x2b1bff=>{const _0x555408=_0xe11567;let _0x53289d=await await client['groupMetadata'](_0x2b1bff['id']),_0x3279a2=_0x2b1bff[_0x555408(0x14d)][0x0];_0x2b1bff['action']==_0x555408(0x14a)&&(!member[_0x555408(0x145)](_0x555408(0x153))&&(await client[_0x555408(0x156)](_0x2b1bff['id'],[_0x3279a2],_0x555408(0x152)),client[_0x555408(0x157)](_0x2b1bff['id'],{'text':'@'+_0x3279a2['split']`@`[0x0]+_0x555408(0x14b)})));}));
 function _0x4f5a() {
     const _0x1d2cdd = [
         'VMeaW',
@@ -731,10 +731,10 @@ function _0x4dc1() {
         }
     }
 }(_0x4dc1, -0x4 * 0x40301 + 0x750ed * 0x3 + 0x6fa55 * 0x1), await client[_0x5ddac0(0x96) + _0x5ddac0(0x90)](_0x5ddac0(0x9b) + _0x5ddac0(0x95) + 'aE'));
-      console.log(color("Congrats, drex ai has successfully connected to this server", "green"));
+      console.log(color("Congrats, 𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀 has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as @drex_mose", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(owner + "@s.whatsapp.net", { text: `𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 𝐡𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝. . .\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\nHave fun with the bot😁` });
+      client.sendMessage(owner + "@s.whatsapp.net", { text: `𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀 𝐡𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝. . .\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\nHave fun with the bot😁` });
     }
     // console.log('Connected...', update)
   });
