@@ -524,7 +524,7 @@ let cap = `╭════〘 ☬ 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐀𝐈 ☬ 〙�
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./Black_Mamba_Ai menu.mp4'),
+                        video: fs.readFileSync('./Black_Mamba_ai menu.mp4'),
                         caption: cap,
                         gifPlayback: true
                     }, {
