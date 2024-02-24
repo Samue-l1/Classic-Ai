@@ -239,7 +239,7 @@ var lod = [
 "☫",
 	"☸",
         "☬𝐏𝐨𝐧𝐠",	
-"𝐏𝐢𝐧𝐠𝐢𝐧𝐠!!!"
+"𝐂𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐞𝐝 ☫"
 ]
 let { key } = await client.sendMessage(from, {text: '☬𝐏𝐨𝐧𝐠'})
 
@@ -257,9 +257,9 @@ var lod = [
 "✜",
 	"☾",
         "✧",	
-"⭓𝐋𝐨𝐚𝐝𝐢𝐧𝐠 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜! ☫"
+"✧𝐋𝐨𝐚𝐝𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜! ☫"
 ]
-let { key } = await client.sendMessage(from, {text: '𝐋𝐨𝐚𝐝𝐢𝐧𝐠 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜! ☬...'})
+let { key } = await client.sendMessage(from, {text: '𝐋𝐨𝐚𝐝𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜! ☬...'})
 
 for (let i = 0; i < lod.length; i++) {
 await client.sendMessage(from, {text: lod[i], edit: key });
@@ -1816,7 +1816,7 @@ break;
 case "ping": case "speed": { 
 
 	await loadings ()
-         m.reply (`\⭓𝐏𝐨𝐧𝐠\n *${dreadedspeed.toFixed(4)}* *ms*`); 
+         m.reply (`\☫𝐏𝐨𝐧𝐠\n *${dreadedspeed.toFixed(4)}* *ms*`); 
          } 
  break; 
   
