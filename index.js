@@ -1,7 +1,7 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || 'Classic-ai';
+let botname = process.env.BOTNAME || '𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐀𝐈';
 
 const owner = process.env.DEV || '254102074064'; // This will send a notification once the bot reconnects
 const {
@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `𝐘𝐎𝐔 𝐀𝐑𝐄 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐁𝐎𝐓\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         `𝐈 𝐀𝐌 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐓𝐎 ${botname}\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
 
                                  ) 
 
