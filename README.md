@@ -15,9 +15,8 @@
 <p align="center">
 <a href="'https://wa.me/+263785189764yoh+𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼ +nishow+venye+nitadeploy+Black_Mamba'"><img title="Whatsapp" src="'https://wa.me/254102074064yoh+𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼ +nishow+venye+nitadeploy+drex-ai'?color=green&style=flat-square"></a>
   
-<a href="https://wa.me/263785189764yohyoh+𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼"><img title="Twitter" src="https://x.com/NSirm5?s=09?color=black&style=flat-square"></a>
-<a href="https://github.com/drexmose/drex-ai/network/members"><img title="Forks" src="https://img.shields.io/github/fork/drexmose/drex-ai?color=yellow&style=flat-square"></a>
-<a href="https://github.com/owlai01/drex-ai/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/drexmose/drex-ai?label=Watchers&color=red&style=flat-square"></a>
+<a href="https://wa.me/263785189764yohyoh+𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼"><img title="Twitter" src="https://xhttps://github.com/Samue-l1/Black-Mamba-Ai/edit/main/README.mdhttps://github.com/Samue-l1/Black-Mamba-Ai/network/members"><img title="Forks" src="https://img.shields.io/github/fork/samue-l/classic-ai?color=yellow&style=flat-square"></a>
+<a href="https://github.com/owlai01/classic-ai/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/samue-l/classic-ai?label=Watchers&color=red&style=flat-square"></a>
 <a href="https://github.com/drexmose/drex-ai/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/owlai01/Owl-Ai/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/owlai01/drex-ai/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
@@ -80,5 +79,5 @@ Modifying the bot structure is at your own risk. We won't offer technical suppor
 
 [MIT License](https://https://github.com/drexmose/Cdrex-ai/blob/main/LICENSE)
 
-Copyright (c) 2023  𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀-𝐀𝐈
+Copyright (c) 2024  𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀-𝐀𝐈
 
