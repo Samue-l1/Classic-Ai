@@ -50,7 +50,7 @@ Linking/Pairing:[https://replit.com/@pesguru02/Pairing-Dreaded-1?s=app]
 
 
 ## ` Pair On reptil`
-<h2 align="left">  <a href="[https://github.com/Fortunatusmokaya/DREADED-PAIRING](https://replit.com/@pesguru02/Pairing-Dreaded-1)"><img src="https://repl.it/badge/github/quiec/whatsasena" />
+<h2 align="left">  <a href="[https://replit.com/@pesguru02/Pairing-Dreaded-1?s=app](https://replit.com/@pesguru02/Pairing-Dreaded-1)"><img src="https://repl.it/badge/github/quiec/whatsasena" />
 </a>
 </h2>
 
