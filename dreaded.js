@@ -522,7 +522,7 @@ let cap = `╭════〘 ☬ 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐀𝐈 ☬ 〙�
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./Classic menu.mp4'),
+                        video: fs.readFileSync('./Classic.mp4'),
                         caption: cap,
                         gifPlayback: true
                     }, {
