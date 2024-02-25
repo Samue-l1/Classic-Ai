@@ -46,7 +46,7 @@ You will need an openai API key for AI features to work.
 
 # SET-UP
 
-Linking/Pairing:
+Linking/Pairing:[
 
 
 ## ` Pair On reptil`
