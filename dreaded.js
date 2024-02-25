@@ -81,15 +81,15 @@ const antibot = process.env.ANTIBOT || 'FALSE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR ||'𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀_𝐀𝐈';
-    const packname = process.env.STICKER_PACKNAME || '𝐌𝐀𝐌𝐁𝐀';
-const dev = process.env.DEV || '263785189764'
+    const author = process.env.STICKER_AUTHOR ||'𝐂𝐥𝐚𝐬𝐬𝐢𝐜-𝐀𝐈';
+    const packname = process.env.STICKER_PACKNAME || '𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪';
+const dev = process.env.DEV || '254102074064'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
    const bad = process.env.BAD_WORD || 'fuck';
-    const autoread = process.env.AUTOREAD || 'TRUE';
+    const autoread = process.env.AUTOREAD || 'FALSE';
     const badword = bad.split(",");
     const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
     // Group
@@ -99,12 +99,12 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
      const groupAdmin = m.isGroup ? await getGroupAdmins(participants) : ""; 
      const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : true; 
      const isAdmin = m.isGroup ? groupAdmin.includes(m.sender) : true;
-const admin = process.env.ADMIN_MSG || '𝐇𝐮𝐡!\n𝐀𝐝𝐦𝐢𝐦𝐬 𝐨𝐧𝐥𝐲, 𝐝𝐢𝐦𝐰𝐢𝐭.';
-    const group = process.env.GROUP_ONLY_MSG || '𝐆𝐫𝐨𝐮𝐩 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐬𝐢𝐥𝐥𝐲.';
-    const botAdmin = process.env.BOT_ADMIN_MSG || '𝐈𝐦 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧 𝐛*𝐭𝐜𝐡'
-    const NotOwner = process.env.NOT_OWNER_MSG || '𝐎𝐰𝐧𝐞𝐫 𝐨𝐧𝐥𝐲 🗿';
+const admin = process.env.ADMIN_MSG || '𝐇𝐮𝐡!\n𝐀𝐝𝐦𝐢𝐦𝐬 𝐨𝐧𝐥𝐲, 𝐃𝐮𝐦𝐦𝐲.';
+    const group = process.env.GROUP_ONLY_MSG || '𝐆𝐫𝐨𝐮𝐩 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐍𝐢𝐠𝐠𝐚.';
+    const botAdmin = process.env.BOT_ADMIN_MSG || '𝐈𝐦 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧 𝐌𝐅'
+    const NotOwner = process.env.NOT_OWNER_MSG || '𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐨𝐧𝐥𝐲 ☬';
 const wapresence = process.env.WA_PRESENCE || 'recording';
-const antilink = process.env.ANTILINK || 'FALSE';
+const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
 const runtime = function (seconds) { 
@@ -192,7 +192,7 @@ function _0x11cc() {
         '184473FwtnYZ',
         '18szWhmE',
         'startsWith',
-        '𝐃𝐑𝐄𝐗_𝐀𝐈\x20an',
+        '𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐀𝐈\x20an',
         '376590puyzhN',
         'key'
     ];
@@ -232,16 +232,16 @@ if (budy.startsWith('>')) {
 
 	   async function loadings () {
 var lod = [
-"❂",
-"☄",
-"☪",
-"✧",
-"≛",
-	"꙳",
-        "⌑𝐏𝐨𝐧𝐠",	
-"𝐏𝐢𝐧𝐠𝐢𝐧𝐠!!!"
+"✦ 𝐘𝐨𝐮 𝐚𝐫𝐞 ✦",
+"⌑ 𝐂𝐨𝐧𝐧𝐞𝐜𝐞𝐝 𝐭𝐨 ✧",
+"☫ 𝐓𝐨 ☫",
+"✯ 𝐂𝐥𝐚𝐬𝐬𝐢𝐜-𝐚𝐢 ✯,
+"✰𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐛𝐲 𝐊𝐢𝐧𝐠 𝐒𝐚𝐦✰",
+	"𝐇𝐞𝐫𝐞 𝐢𝐬",
+        "☄𝐒𝐩𝐞𝐞𝐝☄",	
+"𝐂𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐞𝐝 ☫"
 ]
-let { key } = await client.sendMessage(from, {text: '⌑ 𝐏𝐨𝐧𝐠'})
+let { key } = await client.sendMessage(from, {text: '✧𝐏𝐨𝐧𝐠'})
 
 for (let i = 0; i < lod.length; i++) {
 await client.sendMessage(from, {text: lod[i], edit: key });
@@ -250,16 +250,14 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 	  
 	  async function loading () {
 var lod = [
-"☤",
-"✚",
-"卍",
-"☭",
-"✠",
-	"☬",
-        "☫",	
-"⭓𝐋𝐨𝐚𝐝𝐢𝐧𝐠 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐛𝐲 𝐁𝐥𝐚𝐜𝐤_𝐌𝐚𝐦𝐛𝐚! 😬"
+"『 ⎔ 𝙻𝚘𝚊𝚍𝚒𝚗𝚐... 』\n*[■□□□□□□□□□] 𝟷𝟶٪*",
+"『 ⎔ 𝙻𝚘𝚊𝚍𝚒𝚗𝚐... 』\n*[■■■□□□□□□□] 𝟹𝟶٪*",
+"『 ⎔ 𝙻𝚘𝚊𝚍𝚒𝚗𝚐... 』\n*[■■■■■□□□□□] 𝟻𝟶٪*",
+"『 ⎔ 𝙻𝚘𝚊𝚍𝚒𝚗𝚐... 』\n*[■■■■■■■□□□] 𝟾𝟶٪*",
+"『 ⎔ 𝙻𝚘𝚊𝚍𝚒𝚗𝚐... 』\n*[■■■■■■■■■■] 𝟷𝟶𝟶٪*",
+"	✦𝐋𝐨𝐚𝐝𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜! ☫"
 ]
-let { key } = await client.sendMessage(from, {text: '𝐋𝐨𝐚𝐝𝐢𝐧𝐠 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐛𝐲 𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀! 😬...'})
+let { key } = await client.sendMessage(from, {text: '𝐋𝐨𝐚𝐝𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜! ☬...'})
 
 for (let i = 0; i < lod.length; i++) {
 await client.sendMessage(from, {text: lod[i], edit: key });
@@ -327,7 +325,7 @@ if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b
             
         
                                                    }
-     (antilink === 'TRUE' && body.includes('chat.whatsapp.com') && !Owner && isBotAdmin && !isAdmin && m.isGroup) { 
+    if (antilink === 'TRUE' && body.includes('chat.whatsapp.com') && !Owner && isBotAdmin && !isAdmin && m.isGroup) { 
   
  kid = m.sender; 
   
@@ -343,60 +341,27 @@ if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b
  client.sendMessage(m.chat, {text:`Adiós:\n\n@${kid.split("@")[0]}, sending group links is prohibited here!`, contextInfo:{mentionedJid:[kid]}}, {quoted:m}); 
        }   
 
-if (AntiLinkAll)
-   if (budy.includes("https://")){
-if (!isBotAdmins) return
-bvl = `\`\`\`「 Link Detected 」\`\`\`\n\nyou are a group admin thats why i wont kick you, but remember from next time`
-if (isAdmins) return reply(bvl)
-if (m.key.fromMe) return reply(bvl)
-if (isCreator) return reply(bvl)
-        await Maria.sendMessage(m.chat,
-			    {
-			        delete: {
-			            remoteJid: m.chat,
-			            fromMe: false,
-			            id: m.key.id,
-			            participant: m.key.participant
-			        }
-			    })
-			Classic.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-Maria.sendMessage(from, {text:`\`\`\`「 Link Detected 」\`\`\`\n\n@${m.sender.split("@")[0]} Has been kicked because of sending link in this group`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
-} else {
-}
+if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !Owner && isBotAdmin && !isAdmin && m.isGroup) { 
   
-            switch (command) {
-            case 'antilink': {
-                            if (!m.isGroup) return reply(mess.group)
-                if (!isAdmins && !isCreator) return reply(mess.admin)
-                if (!isBotAdmins) return reply(mess.botAdmin)
-if (args[0] === "on") {
-if (AntiLinkAll) return reply('Already activated')
-ntilinkall.push(from)
-fs.writeFileSync('./Gallery/database/antilink.json', JSON.stringify(ntilinkall))
-reply('Success in turning on all antilink in this group')
-var groupe = await Maria.groupMetadata(from)
-var members = groupe['participants']
-var mems = []
-members.map(async adm => {
-mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
-})
-Classic.sendMessage(from, {text: `\`\`\`「 ⚠️Warning⚠️ 」\`\`\`\n\nIf you're not an admin, don't send any link in this group or u will be kicked immediately!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
-} else if (args[0] === "off") {
-if (!AntiLinkAll) return reply('Already deactivated')
-let off = ntilinkall.indexOf(from)
-ntilinkall.splice(off, 1)
-fs.writeFileSync('./Gallery/database/antilinkall.json', JSON.stringify(ntilinkall))
-reply('Success in turning off all antilink in this group')
-} else {
-  await reply(`Please Type The Option\n\nExample: ${prefix + command} on\nExample: ${prefix + command} off\n\non to enable\noff to disable`)
-  }
-  }
+ ki = m.sender; 
+  
+ client.sendMessage(m.chat, { 
+  
+                delete: { 
+                   remoteJid: m.chat, 
+                   fromMe: false, 
+                   id: m.key.id, 
+                   participant: ki
+                } 
+             }).then(() => client.groupParticipantsUpdate(m.chat, [ki], 'remove')); 
+ client.sendMessage(m.chat, {text:`Auf wiedersehen:\n\n@${ki.split("@")[0]}, sending links is prohibited in this group!`, contextInfo:{mentionedJid:[ki]}}, {quoted:m}); 
+       }   
   
   
   
 
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ BLACK_MAMBA_AI ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ Classic-ai ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -418,7 +383,7 @@ case "help":
 
 		      await loading ()
 
-let cap = `╭════〘 ☬𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀☬ 〙═⊷⏣
+let cap = `╭════〘 ☬ 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐀𝐈 ☬ 〙═⊷⏣
 ┃✠╭──────────────┉◕
 ┃✠│ 𝗢𝘄𝗻𝗲𝗿 :𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪
 ┃✠│ 𝗨𝘀𝗲𝗿 : ${m.pushName}︎︎
@@ -431,12 +396,12 @@ let cap = `╭════〘 ☬𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀☬ �
 ┃✠│
 ┃✠│▎▍▌▌▉▏▎▌▉▐▏▌
 ┃✠│▎▍▌▌▉▏▎▌▉▐▏▌
-┃✠│ ☬𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀☬
-┃⛥│
+┃✠│ ☬𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐀𝐈☬
+┃✜│
 ┃╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉⏣
 ╰─────────────────⏣
-╭════☤☫𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥☫☤════⊷⏣
-▯╭┈┈┈┈┈┈┈┈┈┈┈┈┈···✛
+╭════☬☤𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥☤☬════⊷⏣
+▯╭┈┈┈┈┈┈┈┈┈┈┈┈┈···◕
 ┴✠│
 ┃✠│${prefix}𝐀𝐝𝐦𝐢𝐧.
 ┃✠│${prefix}𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭.
@@ -452,7 +417,7 @@ let cap = `╭════〘 ☬𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀☬ �
 │╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅⏣
 ╰══════════════════⊷⏣
 
-╭════☤☫𝗘𝗗𝗜𝗧☫☤════⊷⏣
+╭════☬☤𝗘𝗗𝗜𝗧☤☬════⊷⏣
 ▯╭┈┈┈┈┈┈┈┈┈┈┈┈···◕
 ┴✠│
 ┃✠│${prefix}𝐒𝐭𝐢𝐜𝐤𝐞𝐫.
@@ -467,8 +432,8 @@ let cap = `╭════〘 ☬𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀☬ �
 │╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅⏣
 ╰══════════════════⊷⏣
 
-╭════☤☫𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗☫☤════⊷⏣
-▯╭┈┈┈┈┈┈┈┈┈┈┈┈┈···☭
+╭════☬☤𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗☤☬════⊷⏣
+▯╭┈┈┈┈┈┈┈┈┈┈┈┈┈···◕
 ┴✠│
 ┃✠│${prefix}𝐏𝐥𝐚𝐲.
 ┃✠│${prefix}𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠.
@@ -482,11 +447,11 @@ let cap = `╭════〘 ☬𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀☬ �
 │╰─────────────────⏣
 ╰══════════════════⊷⏣
 
-╭════☤☫𝗔𝗜☫☤════⊷⏣
+╭════☬☤𝗔𝗜☤☬════⊷⏣
 ▯╭┄┄┄┄┄┄┄┄···◕
 ┴✠│
 ┃✠│${prefix}𝐀𝐢.
-┃✠│${prefix}𝐌𝐚𝐦𝐛𝐚.                                                                                                                                                                                                                                                                                
+┃✠│${prefix}𝐂𝐥𝐚𝐬𝐬𝐢𝐜.                                                                                                                                                                                                                                                                                
 ┃✠│${prefix}𝐆𝐩𝐭.
 ┃✠│${prefix}𝐆.
 ┃✠│${prefix}𝐈𝐦𝐠.
@@ -494,19 +459,19 @@ let cap = `╭════〘 ☬𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀☬ �
 │╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅⏣
 ╰══════════════════⊷⏣
 
-╭════☤☫𝗖𝗢𝗗𝗜𝗡𝗚☫☤════⊷⏣
+╭════☬☤𝗖𝗢𝗗𝗜𝗡𝗚☤☬════⊷⏣
 ▯╭┄┄┄┄┄┄┄┄┄┄┄···◕
 ┴✠│
-┃✠ |${prefix}𝐄𝐧𝐜.
+┃✠│${prefix}𝐄𝐧𝐜.
 ┃✠│${prefix}𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐩𝐲.
 ┃✠│${prefix}𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐣𝐬.
 ┃✠│${prefix}𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐜.
 ┃✠│${prefix}𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐜++.
-┬☤│
+┬✜│
 │╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅⏣
 ╰══════════════════⊷⏣
 
-╭════☤☫𝗢𝗧𝗛𝗘𝗥𝗦☫☤════⊷⏣
+╭════☬☤𝗢𝗧𝗛𝗘𝗥𝗦☤☬════⊷⏣
 ▯╭┄┄┄┄┄┄┄┄┄┄┄···◕
 ┴✠│
 ┃✠│${prefix}𝐌𝐞𝐧𝐮.
@@ -525,11 +490,11 @@ let cap = `╭════〘 ☬𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀☬ �
 ┃✠│${prefix}𝐒𝐜.
 ┃✠│${prefix}𝐒𝐲𝐬𝐭𝐞𝐦.
 ┃✠│${prefix}𝐂𝐫𝐞𝐝𝐢𝐭𝐬.
-┬☤│
+┬✜│
 │╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅⏣
 ╰══════════════════⊷⏣
 
-╭════☤☫𝗚𝗥𝗢𝗨𝗣☫☤════⊷⏣
+╭════☬☤𝗚𝗥𝗢𝗨𝗣☤☬════⊷⏣
 ▯╭┄┄┄┄┄┄┄┄┄┄┄···◕
 ┃✠│${prefix}𝐏𝐫𝐨𝐦𝐨𝐭𝐞.
 ┃✠│${prefix}𝐃𝐞𝐦𝐨𝐭𝐞.
@@ -550,14 +515,14 @@ let cap = `╭════〘 ☬𝐁𝐋𝐀𝐂𝐊 𝐌𝐀𝐌𝐁𝐀☬ �
 ┃✠│${prefix}𝐇𝐢𝐝𝐞𝐭𝐚𝐠.
 ┃✠│${prefix}𝐑𝐞𝐯𝐨𝐤𝐞.
 ┃✠│
-┃✠╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅☫
-┃➠    ▒▓𝐌𝐚𝐝𝐞 𝐁𝐲 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪ ࣩࣧࣧ▓▒ 
-╰════════════════⊷⏣ `;
+┃✜╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅⏣
+┃➠    ▒▓☫ 𝐌𝐚𝐝𝐞 𝐁𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜 ☫▓▒ 
+╰════════════════⊷⏣`;
 
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./classic.mp4'),
+                        video: fs.readFileSync('./Classic.mp4'),
                         caption: cap,
                         gifPlayback: true
                     }, {
@@ -574,10 +539,10 @@ client.sendMessage(m.chat, {
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀`,
+                                title: `𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐀𝐈`,
                                 body: `${runtime(process.uptime())}`,
-                                thumbnail: fs.readFileSync('./𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀.jpg'),
-                                sourceUrl: 'https://wa.me/254742491666?text=ʜᴇʟʟᴏ+𝐤𝐢𝐧𝐠+Nihostie+Bot+Mkuu+🥲',
+                                thumbnail: fs.readFileSync('./𝐁𝐥𝐚𝐜𝐤_𝐌𝐚𝐦𝐛𝐚_𝐀𝐈.jpg'),
+                                sourceUrl: 'https://wa.me/254742491666?text=ʜᴇʟʟᴏ+𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏+Nihostie+Bot+Mkuu+🥲',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -629,7 +594,7 @@ reply(resultt.stderr)
 
 break;
 
-case "black": 
+case "classc": 
 case "ai":
 const _0x3cfb2e = _0x5913;
 (function (_0x573879, _0x548047) {
@@ -698,13 +663,13 @@ function _0x2de4() {
         '64311OINjak',
         'catch',
         'e\x20text.\x20Th',
-        '\x20of\x20its developer 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪',
+        '\x20of\x20its developer 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪ˊ⸼',
         'is\x20AI\x20work',
         '1832596QZCVhJ',
         '\x20and\x20Googl',
         'AgaVJ',
         '6jOniet',
-        '𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀',
+        '𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐀𝐢',
         '20KZWKYf',
         '\x20needs\x20som',
         'gPDEf',
@@ -753,7 +718,7 @@ const rel = await quote(xf, pushname, pppuser)
                 
                 client.sendImageAsSticker(m.chat, rel.result, m, {
                     packname: pushname,
-                    author: `𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪ˊ
+                    author: `𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪`
                 })
 
 } catch (errr) { 
@@ -809,7 +774,7 @@ break;
 case 'ss': case 'ssweb': {
 if (!q) return reply(`Example ${prefix+command} link`)
 let krt = await scp1.ssweb(q)
-client.sendMessage(from,{image:krt.result,caption:"Done by Classic"}, {quoted:m})
+client.sendMessage(from,{image:krt.result,caption:"Done by 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪ˊ "}, {quoted:m})
 }
 break;	
 		      
@@ -1210,9 +1175,9 @@ try {
  if (users  == client.decodeJid(client.user.id)) throw 'Bot cannot remove itself 😡';
  if (users == Owner) { m.reply('Its owner number')}; 
                  await client.groupParticipantsUpdate(m.chat, users, 'remove'); 
-await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐛𝐲 𝐁𝐥𝐚𝐜𝐤 𝐌𝐚𝐦𝐛☬'); 
+await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜☬'); 
 } catch (errr) { 
- await reply("𝐇𝐮𝐡!\n 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧 𝐡𝐞𝐫𝐞\n")}
+ await reply("𝐇𝐮𝐡!\n 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧 𝐡𝐞𝐫𝐞\n 𝐖𝐡𝐲'𝐫𝐞 𝐲𝐨𝐮 𝐭𝐡𝐢𝐧𝐤𝐢𝐧𝐠 𝐨𝐛𝐭𝐮𝐬𝐞𝐥𝐲?☬")}
 
      
          } 
@@ -1224,7 +1189,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
  case 'sc': case 'script': case 'repo':
 
  client.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/72615a4dd05a7f00b8228.jpg` }, caption: 
-`👋🏻 Hi *${pushname}*,You can deploy 𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀 using the GitHub link below🗿\n\nFork and give us a star✨.\n\n https://github.com/Samue-l1/Black-Mamba-Ai\n\nEnjoy and have fun with the bot🗿...\n\nUse the link below to pair 𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀 without scanning any qr code\n\n [https://replit.com/@darkintent120/Pairing-drex9]\n\nMade on Earth by 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪` });
+`👋🏻 Hi *${pushname}*,You can deploy 𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐀𝐈 using the GitHub link below🗿\n\nFork and give us a star✨.\n\n https://github.com/Samue-l1/Black-Mamba-Ai\n\nEnjoy and have fun with the bot🗿...\n\nUse the link below to pair 𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐀𝐢 without scanning any qr code\n\n [https://replit.com/@pesguru02/Black-Mamba-Ai?s=app]\n\nMade on Earth by 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪ˊ⸼` });
 
    break;
                                                   
@@ -1267,7 +1232,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
                  let users = m.mentionedJid[0] ? m.mentionedJid : m.quoted ? [m.quoted.sender] : [text.replace(/[^0-9]/g, '')+'@s.whatsapp.net']; 
   
                  await client.groupParticipantsUpdate(m.chat, users, 'promote'); 
- m.reply('𝐓𝐡𝐫𝐨𝐧𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲! ☪'); 
+ m.reply('𝐏𝐫𝐨𝐦𝐨𝐭𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲! ☬'); 
          } 
  break; 
  case "demote": { 
@@ -1278,7 +1243,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
                  let users = m.mentionedJid[0] ? m.mentionedJid : m.quoted ? [m.quoted.sender] : [text.replace(/[^0-9]/g, '')+'@s.whatsapp.net']; 
   
                  await client.groupParticipantsUpdate(m.chat, users, 'demote'); 
- m.reply('𝐝𝐞𝐦𝐨𝐭𝐞𝐝 ☬'); 
+ m.reply('𝐝𝐞𝐦𝐨𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐟𝐮𝐥! ⚰'); 
          } 
  break;
  case "disp7": { 
@@ -1386,7 +1351,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
                  if (!m.isGroup) throw group; 
                  if (!isBotAdmin) throw botAdmin; 
                  if (!isAdmin) throw admin; 
- let teks = `𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧!\n 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐚𝐥𝐥 𝐭𝐚𝐠𝐠𝐞𝐝 𝐡𝐞𝐫𝐞: 
+ let teks = `✧𝐂𝐋𝐀𝐒𝐒𝐂-𝐀𝐈✧\n☫𝐆𝐑𝐎𝐔𝐏 𝐓𝐀𝐆☫: 
    
   Message ${q ? q : ''}*\n\n`; 
                  for (let mem of participants) { 
@@ -1435,24 +1400,24 @@ function _0x14eb(){const _0x17ec6c=['Audio\x20downloading\x20->','mediaType','st
  pp2 = 'https://tinyurl.com/yx93l6da'; 
  } 
   if (!m.quoted) throw `Tag a user!`; 
- bar = `𝐏𝐫𝐨𝐟𝐢𝐥𝐞 𝐩𝐢𝐜𝐭𝐮𝐫𝐞 𝐨𝐟 ${qd} 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐁𝐋𝐀𝐂𝐊-𝐌𝐀𝐌𝐁𝐀_𝐀𝐈`; 
+ bar = `𝐏𝐫𝐨𝐟𝐢𝐥𝐞 𝐩𝐢𝐜𝐭𝐮𝐫𝐞 𝐨𝐟 ${qd} 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜-𝐀𝐢`; 
  client.sendMessage(m.chat, { image: { url: pp2}, caption: bar, fileLength: "999999999999"}, { quoted: m}); 
  } 
  break;
 
 case "list":
-let vaa = `𝟏𝐌𝐚𝐦𝐛𝐚➣ 𝐆𝐞𝐭 𝐂𝐥𝐚𝐬𝐬𝐢𝐜  𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭➣ 𝐒𝐞𝐧𝐝𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐚𝐥𝐥 𝐠𝐫𝐨𝐮𝐩𝐬\n\n𝟑 𝐉𝐨𝐢𝐧➣ 𝐭𝐚𝐠 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤 𝐰𝐢𝐭𝐡 𝐣𝐨𝐢𝐧\n\n𝟒 𝐁𝐨𝐭𝐩𝐩➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐛𝐨𝐭𝐬 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐝𝐩\n\n𝟓 𝐁𝐥𝐨𝐜𝐤➣ 𝐁𝐥𝐨𝐜𝐤 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬\n\n𝟔 𝐊𝐢𝐥𝐥➣ 𝐊𝐢𝐥𝐥𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐧 𝐬𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝟕 𝐔𝐧𝐛𝐥𝐨𝐜𝐤➣ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞\n\n𝟖 𝐒𝐞𝐭𝐯𝐚𝐫➣ 𝐒𝐞𝐭 𝐯𝐚𝐫𝐬 𝐢𝐧 𝐡𝐞𝐫𝐨𝐤𝐮\n\n𝟗 𝐒𝐭𝐢𝐜𝐤𝐞𝐫➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐨𝐫 𝐚 𝐬𝐡𝐨𝐫𝐭 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫\n\n𝟏𝟎 𝐓𝐨𝐢𝐦𝐠➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟏 𝐏𝐥𝐚𝐲➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟐 𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠➣ 𝐠𝐞𝐭 𝐭𝐡𝐞 𝐭𝐢𝐭𝐥𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟑 𝐘𝐭𝐬 ➣ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬\n\n𝟏𝟒 𝐌𝐨𝐯𝐢𝐞➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬\n\n𝟏𝟓 𝐌𝐢𝐱➣ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬\n\n𝟏𝟔 𝐀𝐢-𝐢𝐦𝐠➣ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟕 𝐆𝐩𝐭 ➣ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n𝟏𝟖 𝐃𝐩➣ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n𝟏𝟗 𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➣ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n𝟐𝟏 𝐑𝐮𝐧𝐭𝐢𝐦𝐞➣ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n𝟐𝟐 𝐒𝐜𝐫𝐢𝐩𝐭➣ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭\n\n𝟐𝟑 𝐎𝐰𝐧𝐞𝐫  ➣ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐𝟒 𝐕𝐚𝐫𝐬 ➣ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n𝟐𝟓 𝐏𝐫𝐨𝐦𝐨𝐭𝐞➣ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n𝟐𝟔 𝐃𝐞𝐦𝐨𝐭𝐞➣ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫\n\n𝟐𝟕 𝐃𝐞𝐥𝐞𝐭𝐞➣ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞\n\n𝟐𝟖 𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤➣ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟐𝟗 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬➣ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬\n\n𝟑𝟎 𝐂𝐥𝐨𝐬𝐞➣ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭\n\n𝟑𝟏 𝐎𝐩𝐞𝐧 ➣ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟑𝟐 𝐈𝐜𝐨𝐧➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n𝟑𝟑 𝐒𝐮𝐛𝐣𝐞𝐜𝐭➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭\n\n𝟑𝟒 𝐃𝐞𝐬𝐜➣ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\n\n𝟑𝟓 𝐋𝐞𝐚𝐯𝐞➣ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞\n\n𝟑𝟔 𝐓𝐚𝐠𝐚𝐥𝐥 ➣ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭\n\n𝟑𝟕 𝐇𝐢𝐝𝐞𝐭𝐚𝐠➣ 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐬𝐨𝐦𝐞𝐨𝐧𝐞 𝐡𝐚𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐚𝐲\n\n𝟑𝟖 𝐑𝐞𝐯𝐨𝐤𝐞 ➣ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤`
+let vaa = `𝟏𝐂𝐥𝐚𝐬𝐬𝐢𝐜➣ 𝐆𝐞𝐭 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭➣ 𝐒𝐞𝐧𝐝𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐚𝐥𝐥 𝐠𝐫𝐨𝐮𝐩𝐬\n\n𝟑 𝐉𝐨𝐢𝐧➣ 𝐭𝐚𝐠 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤 𝐰𝐢𝐭𝐡 𝐣𝐨𝐢𝐧\n\n𝟒 𝐁𝐨𝐭𝐩𝐩➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐛𝐨𝐭𝐬 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐝𝐩\n\n𝟓 𝐁𝐥𝐨𝐜𝐤➣ 𝐁𝐥𝐨𝐜𝐤 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬\n\n𝟔 𝐊𝐢𝐥𝐥➣ 𝐊𝐢𝐥𝐥𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐧 𝐬𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝟕 𝐔𝐧𝐛𝐥𝐨𝐜𝐤➣ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞\n\n𝟖 𝐒𝐞𝐭𝐯𝐚𝐫➣ 𝐒𝐞𝐭 𝐯𝐚𝐫𝐬 𝐢𝐧 𝐡𝐞𝐫𝐨𝐤𝐮\n\n𝟗 𝐒𝐭𝐢𝐜𝐤𝐞𝐫➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐨𝐫 𝐚 𝐬𝐡𝐨𝐫𝐭 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫\n\n𝟏𝟎 𝐓𝐨𝐢𝐦𝐠➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟏 𝐏𝐥𝐚𝐲➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟐 𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠➣ 𝐠𝐞𝐭 𝐭𝐡𝐞 𝐭𝐢𝐭𝐥𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟑 𝐘𝐭𝐬 ➣ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬\n\n𝟏𝟒 𝐌𝐨𝐯𝐢𝐞➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬\n\n𝟏𝟓 𝐌𝐢𝐱➣ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬\n\n𝟏𝟔 𝐀𝐢-𝐢𝐦𝐠➣ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟕 𝐆𝐩𝐭 ➣ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n𝟏𝟖 𝐃𝐩➣ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n𝟏𝟗 𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➣ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n𝟐𝟏 𝐑𝐮𝐧𝐭𝐢𝐦𝐞➣ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n𝟐𝟐 𝐒𝐜𝐫𝐢𝐩𝐭➣ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭\n\n𝟐𝟑 𝐎𝐰𝐧𝐞𝐫  ➣ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐𝟒 𝐕𝐚𝐫𝐬 ➣ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n𝟐𝟓 𝐏𝐫𝐨𝐦𝐨𝐭𝐞➣ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n𝟐𝟔 𝐃𝐞𝐦𝐨𝐭𝐞➣ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫\n\n𝟐𝟕 𝐃𝐞𝐥𝐞𝐭𝐞➣ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞\n\n𝟐𝟖 𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤➣ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟐𝟗 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬➣ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬\n\n𝟑𝟎 𝐂𝐥𝐨𝐬𝐞➣ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭\n\n𝟑𝟏 𝐎𝐩𝐞𝐧 ➣ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟑𝟐 𝐈𝐜𝐨𝐧➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n𝟑𝟑 𝐒𝐮𝐛𝐣𝐞𝐜𝐭➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭\n\n𝟑𝟒 𝐃𝐞𝐬𝐜➣ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\n\n𝟑𝟓 𝐋𝐞𝐚𝐯𝐞➣ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞\n\n𝟑𝟔 𝐓𝐚𝐠𝐚𝐥𝐥 ➣ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭\n\n𝟑𝟕 𝐇𝐢𝐝𝐞𝐭𝐚𝐠➣ 𝐒𝐮𝐩𝐫𝐢𝐬𝐞𝐝 𝐇𝐮𝐡?\n\n𝟑𝟖 𝐑𝐞𝐯𝐨𝐤𝐞 ➣ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤`
 reply(vaa)
 break;
 
   case "system": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1c75ece8f02d98e044e2e.jpg' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀_𝐀𝐈*\n\n*𝐒𝐏𝐄𝐄𝐃: ${dreadedspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: Linux*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝐌𝐀𝐌𝐁𝐀*\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪ˊ}); 
+              client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1c75ece8f02d98e044e2e.jpg' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐀𝐈*\n\n*𝐒𝐏𝐄𝐄𝐃: ${dreadedspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: Linux*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝐒𝐚𝐦𝐮𝐞𝐥*\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼`}); 
  break;
 	      
   case "credits": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/72615a4dd05a7f00b8228.jpg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Fortunatus Mokaya ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/Fortunatusmokaya\n\n𝐃𝐑𝐄𝐗_𝐀𝐈 𝐁𝐎𝐓 シ︎`}); 
+              client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/72615a4dd05a7f00b8228.jpg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Fortunatus Mokaya ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/Fortunatusmokaya\n\n𝐂𝐥𝐚𝐬𝐬𝐢𝐜-𝐀𝐢 𝐁𝐎𝐓 シ︎`}); 
  break;
 		      
   case "take": {
@@ -1482,7 +1447,7 @@ try {
   }
 
 } catch (errr) { 
- await reply("𝐎𝐨𝐩𝐬😬\n𝐅𝐚𝐥𝐢𝐮𝐫𝐞🗿")}
+ await reply("𝐒𝐨𝐫𝐫𝐲\n𝐂𝐚𝐧𝐭 𝐟𝐢𝐧𝐝 ☄")}
 
   }
 break;
@@ -1831,7 +1796,7 @@ break;
                 client.sendMessage(
                     from, {
                         video: fs.readFileSync(`./${randomName}`),
-                        caption: `𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐃𝐑𝐄𝐗_𝐀𝐈`,
+                        caption: `𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜-𝐀𝐢`,
                     }, {
                         quoted: m
                     }
@@ -1849,18 +1814,18 @@ break;
 case "ping": case "speed": { 
 
 	await loadings ()
-         m.reply (`\⭓𝐏𝐨𝐧𝐠\n *${dreadedspeed.toFixed(4)}* *ms*`); 
+         m.reply (`\✧𝐏𝐨𝐧𝐠\n *${dreadedspeed.toFixed(4)}* *ms*`); 
          } 
  break; 
   
  case "runtime": { 
-                 m.reply (`𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀 𝙷𝚊𝚜 𝙱𝚎𝚎𝚗 𝙰𝚌𝚝𝚒𝚟𝚎 𝙵𝚘𝚛 ${runtime(process.uptime())}`) 
+                 m.reply (`𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐀𝐈 𝙷𝚊𝚜 𝙱𝚎𝚎𝚗 𝙰𝚌𝚝𝚒𝚟𝚎 𝙵𝚘𝚛 ${runtime(process.uptime())}`) 
  } 
  break;
 
 case "alive": { 
   
- client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/7a17963a503bdf71771db.mp4' }, caption: `𝐇𝐞𝐥𝐥𝐨 *${m.pushName}*, 𝐁𝐥𝐚𝐜𝐤_𝐌𝐚𝐦𝐛𝐚 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐚𝐥𝐢𝐯𝐞 𝐬𝐢𝐧𝐜𝐞 *${runtime(process.uptime())}*,\n\n✠𝐓𝐲𝐩𝐞 ${prefix}𝐦𝐞𝐧𝐮 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬 𝐦𝐲 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐥𝐢𝐬𝐭.\n✠𝐓𝐲𝐩𝐞 ${prefix}𝐫𝐞𝐩𝐨 𝐭𝐨 𝐠𝐞𝐭 𝐦𝐲 𝐬𝐨𝐮𝐫𝐜𝐞 𝐜𝐨𝐝𝐞.\n✠𝐓𝐲𝐩𝐞 ${prefix}𝐨𝐰𝐧𝐞𝐫 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐜𝐫𝐞𝐚𝐭𝐨𝐫.\n\n☬𝐄𝐧𝐣𝐨𝐲 𝐚𝐧𝐝 𝐇𝐚𝐯𝐞 𝐟𝐮𝐧 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐛𝐨𝐭.\n✘𝐌𝐚𝐝𝐞 [𝐂𝐥𝐨𝐧𝐞𝐝] 𝐛𝐲 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪`,fileLength: "9999999999898989899999999" }, { quoted: m });
+ client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/7a17963a503bdf71771db.mp4' }, caption: `𝐇𝐞𝐥𝐥𝐨 *${m.pushName}*, 𝐂𝐋𝐀𝐒𝐒𝐈𝐂_𝐀𝐈 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐚𝐥𝐢𝐯𝐞 𝐬𝐢𝐧𝐜𝐞 *${runtime(process.uptime())}*,\n\n✦𝐓𝐲𝐩𝐞 ${prefix}𝐦𝐞𝐧𝐮 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬 𝐦𝐲 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐥𝐢𝐬𝐭.\n✦𝐓𝐲𝐩𝐞 ${prefix}𝐫𝐞𝐩𝐨 𝐭𝐨 𝐠𝐞𝐭 𝐦𝐲 𝐬𝐨𝐮𝐫𝐜𝐞 𝐜𝐨𝐝𝐞.\n✦𝐓𝐲𝐩𝐞 ${prefix}𝐨𝐰𝐧𝐞𝐫 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐜𝐫𝐞𝐚𝐭𝐨𝐫.\n\n✦𝐄𝐧𝐣𝐨𝐲 𝐚𝐧𝐝 𝐇𝐚𝐯𝐞 𝐟𝐮𝐧 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐛𝐨𝐭.\n✦𝐌𝐚𝐝𝐞 [𝐂𝐥𝐨𝐧𝐞𝐝] 𝐛𝐲 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪`,fileLength: "9999999999898989899999999" }, { quoted: m });
  }
 break;
 case 'apk': {
@@ -1951,7 +1916,7 @@ client.sendMessage(from, buttonMessage, { quoted: m })
    fs.unlinkSync(media); 
    if (err) throw err 
    let buffer = fs.readFileSync(mokaya); 
-   client.sendMessage(m.chat, { image: buffer, caption: `*𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐝 𝐛𝐲 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪☄️*`}, { quoted: m }) 
+   client.sendMessage(m.chat, { image: buffer, caption: `*𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐝 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜 ☬*`}, { quoted: m }) 
    fs.unlinkSync(mokaya); 
     }); 
     } 
@@ -2001,8 +1966,8 @@ case "movie":
              } 
  break;
  
-      case "drex": case "owner": case "mose": 
- client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/3b1d1da9130d4d84a7adc.mp4' }, caption: `☬𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐦𝐲 𝐝𝐚𝐫𝐤 𝐂𝐫𝐞𝐚𝐭𝐨𝐫☬, +263785189764 ☫` }, {quoted: m}); 
+      case "classic": case "owner": case "classic": 
+ client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/3b1d1da9130d4d84a7adc.mp4' }, caption: `𝐇𝐞𝐫𝐞 𝐢𝐬 𝐦𝐲 𝐚𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬 𝐜𝐫𝐞𝐚𝐭𝐨𝐫, +26378 5189764 ☤☬` }, {quoted: m}); 
   
  break;
        
@@ -2037,7 +2002,7 @@ case "movie":
          let res = groups.map(v => v.id) 
          reply(` Broadcasting in ${res.length} Group Chat, in ${res.length * 1.5} seconds`) 
          for (let i of res) { 
-             let txt = `*_</ 𝐁𝐋𝐀𝐂𝐊_𝐌𝐀𝐌𝐁𝐀 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}_*` 
+             let txt = `*_</ 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐁𝐎𝐓𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}_*` 
              await client.sendMessage(i, { 
                  image: { 
                      url: "https://telegra.ph/file/1c75ece8f02d98e044e2e.jpg" 
@@ -2114,83 +2079,110 @@ case "movie":
             }
             break	      
  
-        case "gpt": case "g": 
+        case "gpt": case "classy": 
           
 
-            Classic.sendMessage(from, { react: { text: "🤖", key: m.key }}) 
-              if (!q) return reply(`Please provide a text query. Example: ${prefix + command} Hello, ChatGPT!`);
-            
-              const apiUrl1 = `https://vihangayt.me/tools/chatgpt?q=${encodeURIComponent(q)}`;
-              const apiUrl2 = `https://gurugpt.cyclic.app/gpt4?prompt=${encodeURIComponent(q)}&model=llama`;
-            
-              try {
-                
-                const response1 = await fetch(apiUrl1);
-                const responseData1 = await response1.json();
-            
-                if (response1.status === 200 && responseData1 && responseData1.status === true && responseData1.data) {
-                  
-                  const message = responseData1.data;
-                  const me = m.sender;
-                  await Classic.sendMessage(m.chat, { text: message, mentions: [me] }, { quoted: m });
-                } else {
-                  
-                  const response2 = await fetch(apiUrl2);
-                  const responseData2 = await response2.json();
-            
-                  if (response2.status === 200 && responseData2 && responseData2.data) {
-                    
-                    const message = responseData2.data;
-                    const me = m.sender;
-                    await Maria.sendMessage(m.chat, { text: message, mentions: [me] }, { quoted: m });
-                  } else {
-                    reply("Sorry, I couldn't fetch a response from both APIs at the moment.");
-                  }
-                }
-              } catch (error) {
-                console.error(error);
-                reply("An error occurred while fetching the response from both APIs.");
-              }
+            if (!text) return reply("Hello am 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 an Ai developed by 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼, how can I assist you today?");
+
+           const configuration = new Configuration({
+
+              apiKey: setting,
+
+            });
+
+            const g = new OpenAIApi(configuration);
+
+            try {
+
+const response = await g.createChatCompletion({
+
+          model: "gpt-3.5-turbo",
+
+          messages: [{role: "user", content: text}],
+
+          });
+
+          m.reply(`${response.data.choices[0].message.content}`);
+
+          } catch (error) {
+
+          if (error.response) {
+
+            console.log(error.response.status);
+
+            console.log(error.response.data);
+
+            console.log(`${error.response.status}\n\n${error.response.data}`);
+
+          } else {
+
+            console.log(error);
+
+            m.reply("I\'m Facing An Error:"+ error.message);
+
+          }
+
             }
+
 break;
 /*
 case "g":
 
-Maria.sendMessage(from, { react: { text: "🤖", key: m.key }}) 
-              if (!q) return reply(`Please provide a text query. Example: ${prefix + command} Hello, ChatGPT!`);
-            
-              const apiUrl1 = `https://vihangayt.me/tools/chatgpt?q=${encodeURIComponent(q)}`;
-              const apiUrl2 = `https://gurugpt.cyclic.app/gpt4?prompt=${encodeURIComponent(q)}&model=llama`;
-            
-              try {
-                
-                const response1 = await fetch(apiUrl1);
-                const responseData1 = await response1.json();
-            
-                if (response1.status === 200 && responseData1 && responseData1.status === true && responseData1.data) {
-                  
-                  const message = responseData1.data;
-                  const me = m.sender;
-                  await Maria.sendMessage(m.chat, { text: message, mentions: [me] }, { quoted: m });
-                } else {
-                  
-                  const response2 = await fetch(apiUrl2);
-                  const responseData2 = await response2.json();
-            
-                  if (response2.status === 200 && responseData2 && responseData2.data) {
-                    
-                    const message = responseData2.data;
-                    const me = m.sender;
-                    await Maria.sendMessage(m.chat, { text: message, mentions: [me] }, { quoted: m });
-                  } else {
-                    reply("Sorry, I couldn't fetch a response from both APIs at the moment.");
-                  }
-                }
-              } catch (error) {
-                console.error(error);
-                reply("An error occurred while fetching the response from both APIs.");
-              }
-            }
+const {
+  Configuration,
+  OpenAIApi
+} = require("g");
+
+// Function to save a conversation to the database
+async function saveConversation(text) {
+  await db.set("conversation", [{ role: "user", content: text }]);
+}
+
+// Function to get a conversation from the database
+async function getConversation() {
+  return await db.get("conversation") || [];
+}
+
+// Handler for the "gpt" or "g" case
+async function handleGPTMessage(text, m) {
+  if (!text) return m.reply("Hello am 𝐂𝐥𝐚𝐬𝐬𝐢𝐜 an Ai developed by 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼, how can I assist you today?");
+
+  const configuration = new Configuration({
+    apiKey: setting,
+  });
+
+  const gpt = new OpenAIApi(configuration);
+
+  // Get the previous conversation history from the database
+  const previousMessages = await getConversation();
+
+  // Add the user's new message to the conversation
+  previousMessages.push({ role: "user", content: text });
+
+  try {
+    const response = await openai.createChatCompletion({
+      model: "gpt-3.5-turbo",
+      messages: previousMessages, // Include the entire conversation history
+    });
+
+    // Extract and send the model's reply
+    const modelReply = response.data.choices[0].message.content;
+    m.reply(modelReply);
+
+    // Save the updated conversation history to the database
+    await saveConversation(text); // Store only the latest user message
+  } catch (error) {
+    if (error.response) {
+      console.log(error.response.status);
+      console.log(error.response.data);
+      console.log(`${error.response.status}\n\n${error.response.data}`);
+    } else {
+      console.log(error);
+      m.reply("I'm Facing An Error: " + error.message);
+    }
+  }
+}
+
 
 
           
