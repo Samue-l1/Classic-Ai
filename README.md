@@ -46,7 +46,7 @@ You will need an openai API key for AI features to work.
 
 # SET-UP
 
-Linking/Pairing:[
+Linking/Pairing:[https://replit.com/@pesguru02/Pairing-Dreaded-1?s=app]
 
 
 ## ` Pair On reptil`
