@@ -1967,7 +1967,7 @@ case "movie":
  break;
  
       case "sam": case "owner": case "sam": 
- client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/0b037a829d2fd44385d93.mp4' }, caption: `𝐇𝐞𝐫𝐞 𝐢𝐬 𝐦𝐲 𝐚𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬 𝐜𝐫𝐞𝐚𝐭𝐨𝐫, +254742491666,+263785189764 ☤☬` }, {quoted: m}); 
+ client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/0b037a829d2fd44385d93.mp4' }, caption: `𝐇𝐞𝐫𝐞 𝐢𝐬 𝐦𝐲 𝐚𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬 𝐜𝐫𝐞𝐚𝐭𝐨𝐫, +254742491666 ☤☬` }, {quoted: m}); 
   
  break;
        
