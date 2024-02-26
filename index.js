@@ -3,7 +3,7 @@ const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
 let botname = process.env.BOTNAME || '𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐀𝐈';
 
-const owner = process.env.DEV || '263785189764'; // This will send a notification once the bot reconnects
+const owner = process.env.DEV || '254742491666'; // This will send a notification once the bot reconnects
 const {
   default: dreadedConnect,
   useMultiFileAuthState,
