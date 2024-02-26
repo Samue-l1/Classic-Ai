@@ -595,7 +595,7 @@ reply(resultt.stderr)
 
 break;
 
-case "classc": 
+case "sam": 
 case "ai":
 const _0x3cfb2e = _0x5913;
 (function (_0x573879, _0x548047) {
@@ -1354,7 +1354,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
                  if (!isAdmin) throw admin; 
  let teks = `✧𝐂𝐋𝐀𝐒𝐒𝐂-𝐀𝐈✧\n☫𝐆𝐑𝐎𝐔𝐏 𝐓𝐀𝐆☫: 
    
-  ☯☯☯☯☯☯☯☯☯☯☯☯☯${q ? q : ''}*\n\n`; 
+  *Report*${q ? q : ''}*\n\n`; 
                  for (let mem of participants) { 
                  teks += `✠ @${mem.id.split('@')[0]}\n`; 
                  } 
