@@ -64,7 +64,7 @@ Linking/Pairing:[https://replit.com/@pesguru02/Pairing-Dreaded-1?s=app]
     
 <h2 align="center">   
 
-- Fork this repo by tapping  [here](https://github.com/Samue-l1/Black-Mamba-Ai)
+- Fork this repo by tapping  [here](https://github.com/Samue-l1/Black-Mamba-Ai/fork)
 
 
 - Upload the creds.json that you received to the dreaded1 folder.
