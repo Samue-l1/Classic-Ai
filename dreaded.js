@@ -355,7 +355,7 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
                 } 
              }).then(() => client.groupParticipantsUpdate(m.chat, [ki], 'remove')); 
  client.sendMessage(m.chat, {text:`Auf wiedersehen:\n\n@${ki.split("@")[0]}, sending links is prohibited in this group!`, contextInfo:{mentionedJid:[ki]}}, {quoted:m}); 
-       }   
+															   }
   
   
   
@@ -2122,7 +2122,7 @@ const response = await g.createChatCompletion({
 
           }
 
-            }
+    }
 
 break;
 /*
@@ -2145,7 +2145,7 @@ async function getConversation() {
 
 // Handler for the "gpt" or "g" case
 async function handleGPTMessage(text, m) {
-  if (!text) return m.reply("Hello am 𝐂𝐥𝐚𝐬𝐬𝐢𝐜 an Ai developed by 𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼, how can I assist you today?");
+  if (!text) return m.reply("Hello am 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 an Ai developed by  𝕶⃟ 𝖎⃟ 𝖓⃟ 𝖌⃟ ⸼, how can I assist you today?");
 
   const configuration = new Configuration({
     apiKey: setting,
@@ -2181,8 +2181,7 @@ async function handleGPTMessage(text, m) {
       m.reply("I'm Facing An Error: " + error.message);
     }
   }
-}
-
+	    }
 
 
           
