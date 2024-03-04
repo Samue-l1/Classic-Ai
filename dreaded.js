@@ -1189,7 +1189,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
  case 'sc': case 'script': case 'repo':
 
  client.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/8b12332b03df8082ab7a5.jpg` }, caption: 
-`👋🏻 Hi *${pushname}*,You can deploy 𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐀𝐈 using the GitHub link below🗿\n\nFork and give us a star✨.\n\n https://github.com/Samue-l1/Black-Mamba-Ai\n\nEnjoy and have fun with the bot🗿...\n\nUse the link below to pair 𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐀𝐢 without scanning any qr code\n\n [https://replit.com/@pesguru02/Black-Mamba-Ai?s=app]\n\nMade on Earth by 𝕶⃟ 𝖎⃟ 𝖓⃟ 𝖌⃟ ⸼` });
+`👋🏻 Hi *${pushname}*,You can deploy 𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐀𝐈 using the GitHub link below🌌\n\nFork and give us a star✨.\n\n https://github.com/Samue-l1/Black-Mamba-Ai\n\nEnjoy and have fun with the bot🔥...\n\nUse the link below to pair 𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐀𝐢 without scanning any qr code\n\n [https://replit.com/@pesguru02/Pairing-Classic-Ai]\n\nMade on Earth by 𝕶⃟ 𝖎⃟ 𝖓⃟ 𝖌⃟ ⸼` });
 
    break;
                                                   
