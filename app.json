@@ -30,13 +30,13 @@
     },
     "NOT_OWNER_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
-      "required": true
+      "required": false
     },
     
     
     "BOT_ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
-      "required": true
+      "required": false
     },
     "ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Only admins are allowed to use this command",
@@ -52,7 +52,7 @@
     },
     "GROUP_ONLY_MSG": {
       "description": "Put a message that the bot will send if a parameter that works in group chats only is violated. Example: This command will work in groups only",
-      "required": true
+      "required": false
     },
       "AUTOREAD": {
       "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
