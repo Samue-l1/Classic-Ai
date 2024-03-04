@@ -13,9 +13,9 @@
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-CLASSIV_CLASSIC-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="'https://wa.me/+263785189764yoh+𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼ +nishow+venye+nitadeploy+classic-ai'"><img title="Whatsapp" src="'https://wa.me/263785189764yoh+𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼ +nishow+venye+nitadeploy+classic'?color=green&style=flat-square"></a>
+<a href="'https://wa.me/+254703542294yoh+𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼ +nishow+venye+nitadeploy+classic-ai'"><img title="Whatsapp" src="'https://wa.me/244703542294yoh+𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼ +nishow+venye+nitadeploy+classic'?color=green&style=flat-square"></a>
   
-<a href="https://wa.me/263785189764yohyoh+𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼"><img title="Twitter" src="https://x.com/NSirm5?s=09?color=black&style=flat-square"></a>
+<a href="https://wa.me/254703542294yohyoh+𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪⸼"><img title="Twitter" src="https://x.com/NSirm5?s=09?color=black&style=flat-square"></a>
 <a href="https://github.com/Samue-l1/Black-Mamba-Ai/network/members"><img title="Forks" src="https://img.shields.io/github/for/Samue-l1/Black-Mamba-Ai?color=yellow&style=flat-square"></a>
 <a href="https://github.com/Samue-l1/Black-Mamba-Ai/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/drexmose/drex-ai?label=Watchers&color=red&style=flat-square"></a>
 <a href="https://github.com/Samue-l1/Black-Mamba-Ai/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
@@ -46,11 +46,11 @@ You will need an openai API key for AI features to work.
 
 # SET-UP
 
-Linking/Pairing:[https://replit.com/@pesguru02/Pairing-Dreaded-1?s=app]
+Linking/Pairing:[https://replit.com/@pesguru02/Pairing-Classic-Ai]
 
 
 ## ` Pair On reptil`
-<h2 align="left">  <a href="[https://replit.com/@pesguru02/Pairing-Dreaded-1?s=app](https://replit.com/@pesguru02/Pairing-Dreaded-1)"><img src="https://repl.it/badge/github/quiec/whatsasena" />
+<h2 align="left">  <a href="[https://replit.com/@pesguru02/Pairing-Classic-Ai](https://replit.com/@pesguru02/Pairing-Classic-Ai)"><img src="https://repl.it/badge/github/quiec/whatsasena" /> [https://replit.com/@pesguru02/Pairing-Classic-Ai]
 </a>
 </h2>
 
