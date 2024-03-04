@@ -50,7 +50,7 @@ Linking/Pairing:[https://replit.com/@pesguru02/Pairing-Classic-Ai]
 
 
 ## ` Pair On reptil`
-<h2 align="left">  <a href="[https://replit.com/@pesguru02/Pairing-Classic-Ai](https://replit.com/@pesguru02/Pairing-Classic-Ai)"><img src="https://repl.it/badge/github/quiec/whatsasena" /> [https://replit.com/@pesguru02/Pairing-Classic-Ai]
+<h2 align="left">  <a href="[https://replit.com/@pesguru02/Pairing-Classic-Ai](https://replit.com/@pesguru02/Pairing-Classic-Ai)"><img src="https://repl.it/badge/github/quiec/whatsasena" /> 
 </a>
 </h2>
 
