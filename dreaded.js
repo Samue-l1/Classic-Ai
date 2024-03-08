@@ -93,9 +93,9 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
     const badword = bad.split(",");
     const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
     // Group
-    const groupMetadata = m.isGroup ? await client.groupMetadata(m.chat).catch((e) => {}) : "";
+                        const groupMetadata = m.isGroup ? await client.groupMetadata(m.chat).catch((e) => {}) : "";
 const groupName = m.isGroup && groupMetadata ? await groupMetadata.subject : "";
-    const participants = m.isGroup && groupMetadata ? await groupMetadata.participants : "";
+    const participants = m.isGroup && groupMetadata ? await groupMetadata.participants : ""; 
      const groupAdmin = m.isGroup ? await getGroupAdmins(participants) : ""; 
      const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : true; 
      const isAdmin = m.isGroup ? groupAdmin.includes(m.sender) : true;
