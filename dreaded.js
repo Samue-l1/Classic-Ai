@@ -595,20 +595,20 @@ reply(resultt.stderr)
 break;
 
 case "ai": case "chatgpt": case "openai": {
-inireact()
-if (!q) return xgreply (`Example : ${m.prefix + m.command} create code html & css for hack NASA`)
+()
+if (!q) return reply (`Example : ${m.prefix + m.command} create code html & css for hack NASA`)
 var js = await fetch(`https://aemt.me/openai?text=${q}`) 
 var json = await js.json()
-xgreply(json.result)
+reply(json.result)
 }
 break;
 
 case "gpt4": {
-inireact()
-if (!q) return xgreply (`Example : ${m.prefix + m.command} create code html & css for hack NASA`)
+()
+if (!q) return reply (`Example : ${m.prefix + m.command} create code html & css for hack NASA`)
 var js = await fetch(`https://aemt.me/gpt4?text=${q}`) 
 var json = await js.json()
-xgreply(json.result)
+reply(json.result)
 }
 break;
 
