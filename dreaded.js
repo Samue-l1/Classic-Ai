@@ -601,7 +601,7 @@ var js = await fetch(`https://aemt.me/openai?text=${q}`)
 var json = await js.json()
 xgreply(json.result)
 }
-break
+break;
 
 case "gpt4": {
 inireact()
@@ -610,7 +610,7 @@ var js = await fetch(`https://aemt.me/gpt4?text=${q}`)
 var json = await js.json()
 xgreply(json.result)
 }
-break
+break;
 
 case "compile-js":
 if (!text && !m.quoted) throw 'Quote/tag a Js code to compile.';
