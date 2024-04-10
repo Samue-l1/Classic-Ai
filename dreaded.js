@@ -2007,7 +2007,7 @@ case 'rosestext':
 case 'naturetypography':
 case 'quotesunder':
 case 'shinetext':{
-reply(mess.wait)
+reply(client.wait)
 if (!q) return greply(`Example : ${prefix+command} Classic`) 
 let link
 if (/stonetext/.test(command)) link = 'https://photooxy.com/online-3d-white-stone-text-effect-utility-411.html'
@@ -2074,7 +2074,7 @@ case 'galaxystyle':
 case 'lighteffects':{
 
 if (!q) return reply(`Example : ${prefix+command} ryozingod`) 
-reply(mess.wait)
+reply(client.wait)
 let link
 if (/glitchtext/.test(command)) link = 'https://en.ephoto360.com/create-digital-glitch-text-effects-online-767.html'
 if (/writetext/.test(command)) link = 'https://en.ephoto360.com/write-text-on-wet-glass-online-589.html'
