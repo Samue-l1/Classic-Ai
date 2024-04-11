@@ -526,6 +526,7 @@ if (menu === 'VIDEO') {
                    client.sendMessage(m.chat, {
                         video: fs.readFileSync('./Classic.mp4'),
                         caption: cap,
+			sourceUrl: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",   
                         gifPlayback: true
                     }, {
                         quoted: m
