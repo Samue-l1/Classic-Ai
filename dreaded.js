@@ -2038,7 +2038,6 @@ if (/metalliceffect/.test(command)) link = 'https://photooxy.com/logo-and-text-e
 if (/embroiderytext/.test(command)) link = 'https://photooxy.com/logo-and-text-effects/create-embroidery-text-online-191.html'
 if (/flamingtext/.test(command)) link = 'https://photooxy.com/logo-and-text-effects/realistic-flaming-text-effect-online-197.html'
 let = await (link, q)
-client.sendMessage(m.chat, { image: { url:  }, caption: `success` }, { quoted: m })
 }
 break;
 
