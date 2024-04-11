@@ -2037,8 +2037,8 @@ if (/balloontext/.test(command)) link = 'https://photooxy.com/logo-and-text-effe
 if (/metalliceffect/.test(command)) link = 'https://photooxy.com/logo-and-text-effects/illuminated-metallic-effect-177.html'
 if (/embroiderytext/.test(command)) link = 'https://photooxy.com/logo-and-text-effects/create-embroidery-text-online-191.html'
 if (/flamingtext/.test(command)) link = 'https://photooxy.com/logo-and-text-effects/realistic-flaming-text-effect-online-197.html'
-let dreaded = await photooxy.photoOxy(link, q)
-client.sendMessage(m.chat, { image: { url: dreaded }, caption: `success` }, { quoted: m })
+let client = await (link, q)
+client.sendMessage(m.chat, { image: { url: client }, caption: `success` }, { quoted: m })
 }
 break;
 
