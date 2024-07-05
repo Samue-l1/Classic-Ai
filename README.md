@@ -46,25 +46,24 @@ You will need an openai API key for AI features to work.
 
 # SET-UP
 
-Linking/Pairing:[https://replit.com/@pesguru02/Pairing-Classic-Ai]
+[Linking/Pairing](https://classic-v3-session.onrender.com/pair)
 
 
-## ` Pair On reptil`
-<h2 align="left">  <a href="[https://replit.com/@pesguru02/Pairing-Classic-Ai](https://replit.com/@pesguru02/Pairing-Classic-Ai)"><img src="https://repl.it/badge/github/quiec/whatsasena" /> 
-</a>
-</h2>
+## ` Pair On render`
 
-
-
-    
-<h2 align="center">   
+[Linking/Pairing](https://classic-v3-session.onrender.com/pair)
 
 
 
     
 <h2 align="center">   
 
-- Fork this repo by tapping  [here](https://github.com/Samue-l1/Black-Mamba-Ai/fork)
+
+
+    
+<h2 align="center">   
+
+- Fork this repo by tapping  [here](https://github.com/Samue-l1/Classic-Ai/fork)
 
 
 - Upload the creds.json that you received to the dreaded1 folder.
